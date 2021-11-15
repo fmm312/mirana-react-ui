@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ButtonHTMLAttributes } from 'react';
 import { Container } from './styles';
 
 interface ButtonProps {
@@ -8,33 +8,33 @@ interface ButtonProps {
   large?: boolean;
   small?: boolean;
   disabled?: boolean;
-  onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
 
-const Button: React.FC<ButtonProps> = ({
-  children,
-  outlined,
-  rounded,
-  borderless,
-  large,
-  small,
-  disabled,
-  onClick,
-}) => {
-  return (
-    <Container
-      outlined={outlined}
-      rounded={rounded}
-      borderless={borderless}
-      large={large}
-      small={small}
-      disabled={disabled}
-      onClick={onClick}
-    >
-      {children}
-    </Container>
-  );
-};
+const Button: React.FC<ButtonProps & ButtonHTMLAttributes<HTMLButtonElement>> =
+  ({
+    children,
+    outlined,
+    rounded,
+    borderless,
+    large,
+    small,
+    disabled,
+    ...props
+  }) => {
+    return (
+      <Container
+        outlined={outlined}
+        rounded={rounded}
+        borderless={borderless}
+        large={large}
+        small={small}
+        disabled={disabled}
+        {...props}
+      >
+        {children}
+      </Container>
+    );
+  };
 
 export { Button };
 export type { ButtonProps };

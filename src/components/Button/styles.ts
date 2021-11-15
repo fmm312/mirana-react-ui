@@ -22,7 +22,7 @@ export const Container = styled.button<ButtonProps>`
   &:disabled {
     opacity: 0.6;
     color: ${props => (props.outlined ? '#0F52BA' : '#ffffff')};
-    cursor: not-allowed;
+    cursor: initial;
   }
 
   &:hover:not(:disabled) {

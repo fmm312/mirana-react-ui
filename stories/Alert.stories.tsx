@@ -3,10 +3,6 @@ import { storiesOf } from '@storybook/react';
 
 import { Alert } from '../src/components';
 
-storiesOf('Alert', module).add('Default', () => (
-  <Alert title="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
-));
-
 storiesOf('Alert', module)
   .add('Default', () => (
     <Alert title="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
