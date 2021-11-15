@@ -1,5 +1,5 @@
 import { Alert } from './Alert';
-import Badge from './Badge';
+import { Badge } from './Badge';
 import { Button } from './Button';
 import IconButton from './IconButton';
 import Radio from './Radio';

@@ -5,11 +5,12 @@ import { Container, Icon, Title } from './styles';
 interface BadgeProps {
   title?: string;
   icon?: React.ReactNode;
+  color?: string;
 }
 
-const Badge: React.FC<BadgeProps> = ({ title, icon }) => {
+const Badge: React.FC<BadgeProps> = ({ title, icon, color }) => {
   return (
-    <Container>
+    <Container color={color}>
       <Icon>{icon}</Icon>
 
       <Title>{title}</Title>
@@ -17,4 +18,5 @@ const Badge: React.FC<BadgeProps> = ({ title, icon }) => {
   );
 };
 
-export default Badge;
+export { Badge };
+export type { BadgeProps };
