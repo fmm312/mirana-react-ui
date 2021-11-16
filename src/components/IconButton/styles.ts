@@ -6,8 +6,8 @@ export const Container = styled.button`
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   text-align: center;
   outline: none;
   border: none;
@@ -16,5 +16,6 @@ export const Container = styled.button`
   &:hover,
   &:active {
     background: #ebecf5;
+    opacity: 0.4;
   }
 `;
