@@ -6,6 +6,7 @@ import { Grid } from './Grid';
 import IconButton from './IconButton';
 import Radio from './Radio';
 import { Snackbar } from './Snackbar';
+import Switch from './Switch';
 import Text from './Text';
 import { TextArea } from './TextArea';
 import { TextField } from './TextField';
@@ -19,6 +20,7 @@ export {
   IconButton,
   Radio,
   Snackbar,
+  Switch,
   Text,
   TextArea,
   TextField,

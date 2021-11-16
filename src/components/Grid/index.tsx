@@ -6,7 +6,9 @@ interface GridProps {
   direction?: string;
   justify?: string;
   align?: string;
+  wrap?: string;
   spacing?: number;
+  width?: number;
   mt?: number;
   mb?: number;
   ml?: number;
@@ -15,6 +17,9 @@ interface GridProps {
   pb?: number;
   pl?: number;
   pr?: number;
+  sm?: number;
+  lg?: number;
+  style?: any;
 }
 
 const Grid: React.FC<GridProps> = ({
@@ -22,7 +27,9 @@ const Grid: React.FC<GridProps> = ({
   direction,
   justify,
   align,
+  wrap,
   spacing,
+  width,
   mt,
   mb,
   ml,
@@ -31,13 +38,18 @@ const Grid: React.FC<GridProps> = ({
   pb,
   pl,
   pr,
+  sm,
+  lg,
+  style,
 }) => {
   return (
     <Container
       direction={direction}
       justify={justify}
       align={align}
+      wrap={wrap}
       spacing={spacing}
+      width={width}
       mt={mt}
       mb={mb}
       ml={ml}
@@ -46,6 +58,9 @@ const Grid: React.FC<GridProps> = ({
       pb={pb}
       pl={pl}
       pr={pr}
+      sm={sm}
+      lg={lg}
+      style={style}
     >
       {children}
     </Container>
