@@ -1,6 +1,5 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-
 import { Alert } from '../src/components';
 
 storiesOf('Alert', module)
