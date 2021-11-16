@@ -3,6 +3,7 @@ import { Badge } from './Badge';
 import { Button } from './Button';
 import IconButton from './IconButton';
 import Radio from './Radio';
+import Text from './Text';
 import { TextField } from './TextField';
 
-export { Alert, Badge, Button, IconButton, Radio, TextField };
+export { Alert, Badge, Button, IconButton, Radio, Text, TextField };

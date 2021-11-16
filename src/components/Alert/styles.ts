@@ -7,7 +7,7 @@ export const Container = styled.div<AlertProps>`
   align-items: center;
   background-color: ${props =>
     props.error ? '#FCECE8' : props.warning ? '#FCF5E8' : '#eaeef8'};
-  padding: 14px 20px;
+  padding: 14px 18px;
   border-radius: 0.375rem;
   width: 100%;
   color: ${props =>
@@ -19,6 +19,7 @@ export const Container = styled.div<AlertProps>`
 `;
 
 export const Title = styled.p`
-  font-size: 14px;
-  margin-left: 12px;
+  font-size: 12px;
+  margin-left: 10px;
+  color: #67697a;
 `;

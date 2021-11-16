@@ -6,7 +6,7 @@ export default create({
   colorSecondary: '#3b7dd8',
 
   // Typography
-  fontBase: '"DM Sans", sans-serif',
+  fontBase: '"Roboto", sans-serif',
   fontCode: 'monospace',
 
    // UI
@@ -22,7 +22,7 @@ export default create({
   barSelectedColor: '#3b7dd8',
   barBg: '#ffffff',
 
-  brandTitle: 'Sum DS',
+  brandTitle: 'Oceanic React UI',
   // brandUrl: 'https://somapay.com.br/',
   // brandImage: 'https://s3-eu-west-1.amazonaws.com/tap-user-uploads/5eebf6c157579.39941600%201592522432'
 });
