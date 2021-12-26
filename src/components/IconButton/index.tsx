@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { ButtonHTMLAttributes } from 'react';
 
 import { Container } from './styles';
 
-const IconButton: React.FC = ({ children }) => {
+const IconButton: React.FC<ButtonHTMLAttributes<HTMLButtonElement>> = ({
+  children,
+}) => {
   return <Container>{children}</Container>;
 };
 

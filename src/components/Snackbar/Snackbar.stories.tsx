@@ -1,22 +1,27 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
 import { IoIosAlert } from 'react-icons/io';
-import { Snackbar } from '../src/components';
+import { Snackbar } from '..';
 
-storiesOf('Snackbar', module)
-  .add('Success', () => (
+export default { title: 'Components/Snackbar', component: Snackbar };
+
+export function Success() {
+  return (
     <Snackbar
       title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       icon={<IoIosAlert />}
       status="success"
       open
     />
-  ))
-  .add('Error', () => (
+  );
+}
+
+export function Error() {
+  return (
     <Snackbar
       title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       icon={<IoIosAlert />}
       status="error"
       open
     />
-  ));
+  );
+}

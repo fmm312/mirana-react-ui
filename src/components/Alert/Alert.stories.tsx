@@ -1,20 +1,28 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { Alert } from '../src/components';
+import { Alert } from '..';
 
-storiesOf('Alert', module)
-  .add('Default', () => (
+export default { title: 'Components/Alert', component: Alert };
+
+export function Default() {
+  return (
     <Alert title="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
-  ))
-  .add('Error', () => (
+  );
+}
+
+export function Error() {
+  return (
     <Alert
       title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       error
     />
-  ))
-  .add('Warning', () => (
+  );
+}
+
+export function Warning() {
+  return (
     <Alert
       title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       warning
     />
-  ));
+  );
+}

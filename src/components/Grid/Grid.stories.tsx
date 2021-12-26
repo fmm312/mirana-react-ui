@@ -1,6 +1,5 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { Grid } from '../src/components';
+import { Grid } from '..';
 
 const GRID_STYLE = {
   background: '#0F52BA',
@@ -9,22 +8,24 @@ const GRID_STYLE = {
   borderRadius: '4px',
 };
 
-storiesOf('Grid', module)
-  .add('Column', () => (
+export default { title: 'Components/Grid', component: Grid };
+
+export function Column() {
+  return (
     <Grid direction="column" spacing={10}>
       <div style={GRID_STYLE}>Grid</div>
-
       <div style={GRID_STYLE}>Grid</div>
-
       <div style={GRID_STYLE}>Grid</div>
     </Grid>
-  ))
-  .add('Row', () => (
+  );
+}
+
+export function Row() {
+  return (
     <Grid direction="row" spacing={10}>
       <div style={GRID_STYLE}>Grid</div>
-
       <div style={GRID_STYLE}>Grid</div>
-
       <div style={GRID_STYLE}>Grid</div>
     </Grid>
-  ));
+  );
+}
