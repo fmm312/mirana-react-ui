@@ -10,8 +10,11 @@ addParameters({
   options: {
     theme,
     showRoots: true,
+    
   },
 });
 
-addDecorator(withInfo);
+addDecorator(withInfo({
+  header: false
+}));
 addDecorator(centered);

@@ -1,4 +1,5 @@
 import { create } from '@storybook/theming';
+import logo from '../assets/logo.png';
 
 export default create({
   base: 'light',
@@ -24,5 +25,5 @@ export default create({
 
   brandTitle: 'Oceanic React UI',
   // brandUrl: 'https://somapay.com.br/',
-  // brandImage: 'https://s3-eu-west-1.amazonaws.com/tap-user-uploads/5eebf6c157579.39941600%201592522432'
+  brandImage: logo
 });
