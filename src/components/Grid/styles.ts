@@ -8,14 +8,6 @@ export const Container = styled.div<GridProps>`
   align-items: ${({ align }) => align};
   flex-wrap: ${({ wrap }) => wrap};
   width: ${({ width }) => `${width}%`};
-  margin-top: ${({ mt }) => `${mt}px`};
-  margin-bottom: ${({ mb }) => `${mb}px`};
-  margin-left: ${({ ml }) => `${ml}px`};
-  margin-right: ${({ mr }) => `${mr}px`};
-  padding-top: ${({ pt }) => `${pt}px`};
-  padding-bottom: ${({ pb }) => `${pb}px`};
-  padding-left: ${({ pl }) => `${pl}px`};
-  padding-right: ${({ pr }) => `${pr}px`};
 
   > * {
     margin: ${({ spacing }) => `${spacing}px`};

@@ -9,16 +9,6 @@ interface GridProps {
   wrap?: string;
   spacing?: number;
   width?: number;
-  mt?: number;
-  mb?: number;
-  ml?: number;
-  mr?: number;
-  pt?: number;
-  pb?: number;
-  pl?: number;
-  pr?: number;
-  sm?: number;
-  lg?: number;
   style?: any;
 }
 
@@ -30,16 +20,6 @@ const Grid: React.FC<GridProps> = ({
   wrap,
   spacing,
   width,
-  mt,
-  mb,
-  ml,
-  mr,
-  pt,
-  pb,
-  pl,
-  pr,
-  sm,
-  lg,
   style,
 }) => {
   return (
@@ -50,16 +30,6 @@ const Grid: React.FC<GridProps> = ({
       wrap={wrap}
       spacing={spacing}
       width={width}
-      mt={mt}
-      mb={mb}
-      ml={ml}
-      mr={mr}
-      pt={pt}
-      pb={pb}
-      pl={pl}
-      pr={pr}
-      sm={sm}
-      lg={lg}
       style={style}
     >
       {children}

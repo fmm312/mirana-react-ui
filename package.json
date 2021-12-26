@@ -4,7 +4,7 @@
   "author": "Felipe Menezes",
   "main": "dist/index.js",
   "license": "MIT",
-  "description": "UI Kit for create Web Apps with React",
+  "description": "A Design System for creating UI with ReactJS",
   "scripts": {
     "start": "start-storybook -p 8080",
     "build": "build-storybook -c .storybook -o public",
