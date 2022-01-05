@@ -1,7 +1,8 @@
 <h1 align="center">
-  <a href="https://ocean-ds.github.io/ocean-web/index.html">
+  <!-- <a href="https://ocean-ds.github.io/ocean-web/index.html">
     <img alt="oceanic-logo" src="./assets/logo2.png" width="400">
-  </a>
+  </a> -->
+Oceanic React UI
 </h1>
 
 <p align="center">
