@@ -9,73 +9,69 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ocean-ds/ocean-web/actions">
-    <img alt="Actions Status" src="https://github.com/ocean-ds/ocean-web/workflows/CI/badge.svg">
+  <a href="https://github.com/prettier/prettier">
+    <img alt="Prettier code style" src="https://img.shields.io/badge/version-1.0.0-5FC754.svg">
   </a>
-  <a href="https://codecov.io/gh/ocean-ds/ocean-web">
-    <img src="https://codecov.io/gh/ocean-ds/ocean-web/branch/master/graph/badge.svg"/>
+  <a href="https://github.com/prettier/prettier">
+    <img alt="Prettier code style" src="https://img.shields.io/badge/docs-storybook-F48041.svg">
   </a>
-  <a href="https://sonarcloud.io/dashboard?id=ocean-ds_ocean-web">
-    <img alt="Sonarcloud Status" src="https://sonarcloud.io/api/project_badges/measure?project=ocean-ds_ocean-web&metric=alert_status">
+  <a href="https://github.com/prettier/prettier">
+    <img alt="Prettier code style" src="https://img.shields.io/badge/conventional_commits-commitzen-F0584D.svg">
   </a>
-  <a href="https://github.com/ocean-ds/ocean-web/blob/master/LICENSE">
-    <img alt="GitHub License" src="https://img.shields.io/github/license/ocean-ds/ocean-web">
-  </a>
-  <a href="https://github.com/ocean-ds/ocean-web/graphs/commit-activity">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ocean-ds/ocean-web">
-  </a>
-  <a href="https://github.com/ocean-ds/ocean-web/network/updates">
-    <img alt="Dependabot" src="https://img.shields.io/badge/Dependabot-enabled-brightgreen">
+  <a href="https://github.com/prettier/prettier">
+    <img alt="Prettier code style" src="https://img.shields.io/badge/releases-standart_version-097ABA.svg">
+  </a><br />
+  <a href="https://github.com/prettier/prettier">
+    <img alt="Prettier code style" src="https://img.shields.io/badge/code_patterns-eslint-60C427.svg">
   </a>
   <a href="https://github.com/prettier/prettier">
     <img alt="Prettier code style" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg">
   </a>
-  <a href="https://lerna.js.org/">
-    <img alt="Lerna" src="https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg">
-  </a>
-  <a href="https://conventionalcommits.org">
-    <img alt="Conventional Commits" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg">
-  </a>
-  <a href="http://makeapullrequest.com">
-    <img alt="Conventional Commits" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
-  </a>
-  <a href="https://discord.gg/hDWzGPKuG2">
-    <img alt="Discord Server" src="https://img.shields.io/discord/875438252172136468.svg?color=7389D8&labelColor=6A7EC2&logo=discord&logoColor=ffffff">
+  <a href="https://github.com/prettier/prettier">
+    <img alt="Prettier code style" src="https://img.shields.io/badge/license-MIT-768AD1.svg">
   </a>
 </p>
 
-This project is composed of many npm packages for building web apps with [Ocean](https://zeroheight.com/9c9b2b3aa/p/257272-ocean-ds/t/968532) design system.
-
 ## Documentation
 
-This project presents an organization and structure with several interesting configurations to start a React.js project.
+Documentation and examples can be found [here]().
 
-## Getting started
-
-Clone this repository and install its dependencies:
+## Install
 
 ```sh
-$ git clone https://github.com/fmm312/react-boilerplate
-$ cd react-boilerplate
-$ yarn
-$ yarn start
+$ yarn add oceanic-react-ui
 ```
 
 ## Contributing
 
 Help us to improve this project by fixing bugs, suggesting improvements or simply helping us spread the word.
 
-### Code of Conduct
+### Starting the project
 
-### Contributing Guide
+Clone this repository and install its dependencies:
 
-## Versioning
+```sh
+$ git clone https://github.com/fmm312/oceanic-react-ui
+$ cd oceanic-react-ui
+$ yarn
+$ yarn start
+```
 
-To keep better organization of releases we follow the [Semantic Versioning 2.0.0]() guidelines.
+### Code of conduct
 
-## History
+A code of conduct sets standards for how to engage in a community. It signals an inclusive environment that respects all contributions. It also describes procedures for resolving issues among project community members. Read the [code of conduct]().
 
-See [Releases]() for detailed changelog.
+### Contributing guide.
+
+These are guidelines for making contributions to this project. Read the [contributing guide]().
+
+### Good practices of pull request
+
+This is a pull request [template]() to the repository.
+
+## Releases
+
+To keep better organization of releases we follow the [Conventional Changelog](https://github.com/conventional-changelog/standard-version) guidelines. See [Releases]() for detailed changelog.
 
 ## License
 
